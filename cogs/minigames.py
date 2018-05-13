@@ -2,20 +2,11 @@ import discord
 import time
 import asyncio
 import random
-import logging
-import requests
 import io
-import safygiphy
-import urllib
-import aiohttp
-import giphypop
-import json
 from discord.ext import commands
-from imgurpython import ImgurClient
 from discord.ext.commands import Bot
 from discord import ChannelType
 from discord.ext.commands import CommandError
-import re
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 tosscoin = [":sun_with_face: Heads, congratulations to whoever won", ":new_moon_with_face: Tails, congratulations to whoever won", ":sun_with_face: Heads, congratulations to whoever won", 
