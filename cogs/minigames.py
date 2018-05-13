@@ -33,10 +33,10 @@ class Minigamecommands:
     async def ping(self,ctx):
         embed = discord.Embed(color = discord.Color(0).orange())
         channel = ctx.message.channel
-        t1 = time.perf_counter()
+        time_1 = time.perf_counter()
         await self.bot.send_typing(channel)
-        t2 = time.perf_counter()
-        embed.description = ":ping_pong: {}ms".format(round((t2-t1)*1000))
+        time_2 = time.perf_counter()
+        embed.description = ":ping_pong: {}ms".format(round((time_2-time_1)*1000))
         await self.bot.say(embed=embed)
 
 #----------------------------------------------------------OTHERCOMMANDS----------------------------------------------------------------------------------------------------
